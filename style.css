@@ -1,0 +1,60 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f6fc;
+  text-align: center;
+  margin: 0;
+}
+
+nav {
+  background: #245a9c;
+  padding: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 15px;
+}
+
+h1 {
+  color: #245a9c;
+  margin-top: 40px;
+}
+
+p {
+  font-size: 18px;
+}
+
+form {
+  background: white;
+  width: 320px;
+  margin: 30px auto;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin-top: 12px;
+}
+
+input, textarea {
+  width: 95%;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+textarea {
+  height: 100px;
+}
+
+button {
+  background: #245a9c;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+}
