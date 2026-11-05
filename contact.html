@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <title>聯絡我們</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">首頁</a>
+    <a href="about.html">公司介紹</a>
+    <a href="contact.html">聯絡我們</a>
+  </nav>
+
+  <h1>聯絡我們</h1>
+
+  <form action="https://formsubmit.co/你的Email"
+        method="POST">
+
+    <label>姓名：</label>
+    <input type="text" name="姓名" required>
+
+    <label>電話：</label>
+    <input type="tel" name="電話" required>
+
+    <label>Email：</label>
+    <input type="email" name="Email" required>
+
+    <label>聯絡內容：</label>
+    <textarea name="聯絡內容" required></textarea>
+
+    <input type="hidden" name="_subject"
+           value="網站聯絡表單">
+
+    <button type="submit">送出</button>
+  </form>
+</body>
+</html>
